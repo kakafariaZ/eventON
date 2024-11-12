@@ -1,8 +1,7 @@
-module controllers {
+module com.example.eventon {
     requires javafx.controls;
     requires javafx.fxml;
     requires com.google.gson;
-
-    opens controllers to javafx.fxml;
-    exports controllers;
+    opens com.example.eventon to javafx.fxml;
+    exports com.example.eventon;
 }
